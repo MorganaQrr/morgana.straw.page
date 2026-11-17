@@ -1,0 +1,118 @@
+:root {
+    --background: #ccc;
+    --simple_text: #260404;
+    --gray_text: #222;
+    --item_background: #ffbbab;
+    --text_box: #ddd;
+    --progress_bar: #262626;
+    --progress_fill: #ff4462;
+    --outline: #fff;
+    --light_text: #7affe1;
+
+    --round: 12px;
+
+    /* Fontes */
+    --pixel_title: "Press Start 2P", monospace;
+    --pixel_text: "Silkscreen", monospace;
+    --normal_text: "Verdana", sans-serif;
+}
+
+body{
+	background-image: url("/assets/img/bg.jpg");
+	background-size: auto;
+	background-repeat: repeat;
+}
+
+.frame{
+	background: var(--item_background);
+	outline: 2px solid var(--outline);
+	overflow: hidden;
+
+	border: 2px solid #000000;
+  	box-shadow: 8px 6px 0 #000000;
+}
+
+.frame img{
+	width: 100%;
+	height: auto;
+}
+
+.text_bar{
+	background: var(--text_box);
+	padding: 0.3rem;
+	border-radius: var(--round);
+}
+
+.attribute{
+}
+
+.progress_bar{
+	background: var(--progress_bar);
+	border-radius: var(--round);
+	outline: 2px solid var(--outline);
+	border: 2px solid #000000;
+  	box-shadow: 8px 6px 0 #000000;
+}
+
+.progress_bar_fill{
+	border-top-left-radius: var(--round);
+	border-bottom-left-radius: var(--round);
+	background: var(--progress_fill);
+}
+.image_panel{
+	background: var(--item_background);
+	outline: 2px solid var(--outline);
+	overflow: hidden;
+
+	border: 2px solid #000000;
+  	box-shadow: 8px 6px 0 #000000;
+
+}
+
+.sticker {
+	overflow: hidden;   position: absolute;
+}
+
+label{
+	color: var(--outline);
+	background: var(--item_background);
+	padding: 5px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	color: var(--simple_text);
+}
+
+.text_bar{
+	color: var(--simple_text);
+}
+.attribute_h4{
+	color: var(--light_text);
+	background: var(--progress_bar);
+	padding: 5px;
+	border-radius: var(--round);
+	max-width: 180px;
+}
+
+
+.playlist p, h3{
+	color: var(--light_text);
+	 background-color: rgba(80, 50, 60, 0.7);
+	 	border-radius: var(--round);
+
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+
+    background-image: url("../assets/img/overlay.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+
+    mix-blend-mode: overlay;
+    opacity: 0.5;
+
+    pointer-events: none;
+}

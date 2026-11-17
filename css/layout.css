@@ -1,0 +1,101 @@
+
+
+body{
+	width: 100%;
+	margin: 0;
+}
+
+.frame{
+	margin: 0.3rem;
+	width: 360px;
+	aspect-ratio: 1/1;
+}
+
+.frame img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0.3rem;
+	margin-left: 1rem;
+}
+
+
+.attribute_bars{
+	margin: 1rem;
+
+}
+
+.top {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.image_grid {
+    display: flex;
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.progress_bar{
+	width: 600px;
+	height: 30px;
+}
+
+.progress_bar_fill{
+	height: 30px;
+}
+
+.image_panel{
+	margin: 0.5rem;
+	width: 360px;
+	aspect-ratio: 3/4;
+
+}
+
+.image_panel img{
+	max-width: 100%;
+}
+
+.content{
+	display: flex;
+}
+
+.content p{
+	width: 1000px;
+}
+
+.text_bar{
+	margin-left: 1rem;
+	margin-top: 5px;
+}
+
+.sticker {
+    position: absolute;
+}
+
+.sticker img{
+	width: 200px;
+    height: auto;
+}
+
+.icons{
+	margin-top: -4rem;
+	margin-left: 25rem;
+
+}
+.icon{
+ }
+
+.icon img{
+	max-width: 80px;
+	height: auto;
+}
+
+.attribute_h4{
+	max-width: 180px;
+
+}

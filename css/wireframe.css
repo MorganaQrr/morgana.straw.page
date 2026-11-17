@@ -1,0 +1,46 @@
+:root{
+	--background: #ccc;
+	--simple_text: #190303;
+	--gray_text: #222;
+	--item_background: #555;
+	--text_box: #ddd;
+	--progress_bar: #262626;
+	--progress_fill: #243f3e;
+
+	--round: 12px;
+}
+
+body{
+	
+}
+
+.frame{
+	background: var(--item_background);
+}
+
+.text_bar{
+	background: var(--text_box);
+	padding: 0.3rem;
+	border-radius: var(--round);
+}
+
+.attribute{
+}
+
+.progress_bar{
+	background: var(--progress_bar);
+	border-radius: var(--round);
+}
+
+.progress_bar_fill{
+	border-top-left-radius: var(--round);
+	border-bottom-left-radius: var(--round);
+	background: var(--progress_fill);
+}
+.image_panel{
+	background: var(--item_background);
+}
+
+.attribute_h4{
+	color: var(--simple_text);
+}
